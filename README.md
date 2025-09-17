@@ -15,8 +15,8 @@ tutorialsninja/
 │── .gitignore
 │── .project
 │── OpenCart_TestCases_Automaion.xlsx   # Test case documentation
-│── pom.xml                             # Maven dependencies
 │── README.md                           # Project documentation
+│── pom.xml                             # Maven dependencies
 ```
 
 ## ⚙️ Tools & Technologies
