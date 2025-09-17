@@ -20,7 +20,7 @@ public class TC_Login_001 {
 		driver.findElement(By.linkText("Login")).click();
 		
 		driver.findElement(By.id("input-email")).sendKeys("manav1@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("123456");
+		driver.findElement(By.id("input-password")).sendKeys("manav@123");
 		driver.findElement(By.xpath("//input[@type = 'submit']")).click();
 		
 		boolean we = driver.getPageSource().contains("Success: Your account has been logged in successfully");
@@ -32,3 +32,4 @@ public class TC_Login_001 {
 		}
 	}
 }
+
