@@ -34,11 +34,6 @@ public class TC_Reg_001{
 		String expectedResult = "Your Account Has Been Created!";
 		Assert.assertEquals(driver.findElement(By.xpath("//h1[contains(text(), 'Your Account Has Been Created!')]")).getText(), expectedResult);
 		
-		
-		driver.findElement(By.linkText("Continue")).click();
-		
-		driver.findElement(By.linkText("Logout")).click();
-		driver.findElement(By.linkText("Register")).clear();
 
 //		driver.quit();
 	}
@@ -51,3 +46,4 @@ public class TC_Reg_001{
 		return newEmail;
 	}
 }
+
